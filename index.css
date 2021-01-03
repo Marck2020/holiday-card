@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@font-face {
+  font-family: GrinchedRegular;
+  src: url(font/GrinchedRegular.otf);
+}
+
+
+body{
+    padding:0;
+    margin:0;
+    font-family: GrinchedRegular;
+    font-size: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+    background-image: url(pics/images.jpg);
+  }
+  #string {
+    height:200px;
+    margin:0 auto;
+    width:4px;
+    background-color: brown;
+  }
+
+  #ring {
+    margin:0 auto;
+    width:30px;
+    height:15px;
+    background-color: brown;
+  }
+  #christmas-ball {
+    margin:0 auto;    
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border:black 2px solid;
+    margin-top:-1px;
+    background-image:url(pics/ball\ texture.jpg);
+    border:3px solid brown;
+  }
+
+p {
+  text-align: center;
+  margin-top:50px;
+  line-height: 40px;
+}
+
+/* ITALIAN BUTTON*/   
+.flex-container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: start;
+	-moz-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: center;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+  align-content: stretch;
+  padding:5px;
+}
+
+/* ITALIAN BUTTON */
+#ita-button-container {
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  margin:5px;
+}
+
+#italian-button {
+margin-top:20px;
+outline:none;
+border:none;
+border-radius: 50%;
+background-color: transparent;
+width:80px;
+height:80px;
+cursor: pointer;
+color:white;
+}
+
+#italian-button:hover {
+  background-color:black;
+  border-color: black;
+  transition: 0.7s;
+}
+
+/* SPANISH BUTTON */
+
+#spa-button-container {
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  margin:5px;
+}
+#spanish-button {
+  margin-top:20px;
+  outline:none;
+  border:2px solid white;
+  background-color: transparent;
+  border-radius: 50%;
+  border:none;
+  width: 80px;
+  height:80px;
+  cursor: pointer;
+  color:white;
+}
+
+#spanish-button:hover {
+  background-color:black;
+  border-color: black;
+  transition: 0.7s;
+}
+
+/* ENGLISH BUTTON */
+
+#eng-button-container {
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  margin:5px;
+}
+
+#english-button {
+  margin-top:20px;
+  outline:none;
+  background-color: transparent;
+  border-radius: 50%;
+  border:none;
+  width: 80px;
+  height:80px;
+  cursor: pointer;
+  color:white;
+  }
+
+  #english-button:hover {
+    background-color:black;
+    border-color: black;
+    transition: 0.7s;
+  }
+
+/* GERMAN BUTTON */
+
+  #ger-button-container {
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin:5px;
+  }
+  
+  #german-button {
+    margin-top:20px;
+    outline:none;
+    border:none;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 80px;
+    height:80px;
+    cursor: pointer;
+    color:white;
+    }
+
+    #german-button:hover {
+      background-color:black;
+      border-color: black;
+      transition: 0.7s;
+    }
+
+    #sphere {
+      transform: rotate(-25deg);
+      width:45px;
+      height:45px;
+      margin-top:-45px;
+    }
+
+    #sphere2 {
+      transform: rotate(25deg);
+      width:55px;
+      height:55px;
+      margin-top:15px;
+    }
+
+    #sock {
+      transform:rotate(-55deg);
+      position: absolute;
+      width:55px;
+      height:55px;
+      margin-top:-45px;
+      margin-left: 180px;
+    }
+
+    #gift {
+      width:65px;
+      height:65px;
+      position: absolute;
+      margin-top:-340px;
+      margin-left: 70px;
+      transform:rotate(25deg);
+    }
+
+
+    #tree {
+      
+      width:65px;
+      height:65px;
+      position: absolute;
+      margin-top:-330px;
+      margin-left: -130px;
+    }
+
+    #star {
+      width:65px;
+      height:65px;
+      position: absolute;
+      margin-top:-280px;
+      margin-left: -80px;
+    }
+
+    #star2 {
+      width:65px;
+      height:65px;
+      position: absolute;
+      margin-top:-230px;
+      margin-left: 180px;-
+      transform: rotate(40deg);
+    }
+
+    #sphere3 {
+      position: absolute;
+      transform: rotate(120deg);
+      width:55px;
+      height:55px;
+      margin-top:-310px;
+      margin-left: 190px;
+    }
+
+    #santa-claus {
+      position: absolute;
+      transform: rotate(10deg);
+      width:75px;
+      height:75px;
+      margin-top:120px;
+      margin-left:120px;
+    }
+
+    #slitta {
+      position: absolute;
+      transform: rotate(10deg);
+      width:75px;
+      height:75px;
+      margin-top:-350px;
+      margin-left:-100px;
+    }
+
+    #footer {
+      position: absolute;
+      text-align: center;
+      color:white;
+      margin-top:250px;
+      font-size: 18px;
+      font-family: Montserrat;
+    }
+
+    #fireworks {
+      position: absolute;
+      transform: rotate(10deg);
+      width:75px;
+      height:75px;
+      margin-top:10px;
+      margin-left:80px;
+    }
